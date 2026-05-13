@@ -38,14 +38,14 @@ public class HumanManager : MonoBehaviour {
     public static Human CreateRandom() {
         HumanStats stats = new HumanStats(
             GetRandomGender(),
-            Random.Range(3f, 8f),
-            Random.Range(0.5f, 2f),
-            Random.Range(2f, 6f),
-            Random.Range(3f, 10f),
-            Random.Range(10f, 45f),
-            Random.Range(0f, 5f),
-            Random.Range(0f, 2f),
-            Random.Range(2f, 10f)
+            Random.Range(3f, 11f), // speed
+            Random.Range(0.75f, 2f), // size
+            Random.Range(8f, 17f), // vision
+            Random.Range(3f, 10f), // strength
+            Random.Range(10f, 45f), // stamina
+            Random.Range(0f, 5f), // endurance
+            Random.Range(0f, 2f), // fertility
+            Random.Range(2f, 10f) // intelligence
             );
 
         Human human = new Human(stats);

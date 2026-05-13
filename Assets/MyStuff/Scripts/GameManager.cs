@@ -1,9 +1,10 @@
-using System.Collections;
 using System.Threading.Tasks;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
+
+    [SerializeField] int seed = 50;
 
     [SerializeField] Vector2 mapSize = new Vector2(250, 250);
     [SerializeField] Transform MapBackground;
@@ -13,24 +14,34 @@ public class GameManager : MonoBehaviour {
     
     public static GameManager Instance;
 
+    const float minMapSize = 250;
+
+    public static Vector2 MapSize;
     public static bool isPlaying = false;
 
     private void OnEnable() {
         Instance = this;
 
-        MapBackground.position = Vector2.zero;
-        MapBackground.localScale = mapSize;
-
-        isPlaying = false;
         ResetSimulation();
     }
-    async void ResetSimulation() {
+    public async void ResetSimulation() {
+        if (Instance == null) return;
         await Task.Delay(1);
+
+        ControllableHuman.KillPlayer();
+
+        Random.InitState(seed);
+        if (mapSize.magnitude < minMapSize) {
+            mapSize = Vector2.one * minMapSize / Mathf.Sqrt(2);
+        }
+        MapSize = mapSize;
+
+        CameraManager.Initialize();
+        MapBackground.position = Vector2.zero;
+        MapBackground.localScale = MapSize;
 
         ResetWorld();
     }
-
-    public static Vector2 MapSize => Instance.mapSize;
 
     public void ResetWorld() {
         Debug.Log("Resetting world.");
@@ -44,12 +55,16 @@ public class GameManager : MonoBehaviour {
         for (int i = 0; i < StartingHumans; i++) {
             HumanManager.CreateRandom();
         }
+
+        ItemManager.ResetItems();
     }
 
     public void PlaySimulation() {
         isPlaying = true;
         Human human = HumanManager.CreateRandom();
         human.transform.AddComponent<ControllableHuman>();
+        ControllableHuman.Instance = human;
+        Debug.Log(human.stats);
     }
 
     private void Update() {

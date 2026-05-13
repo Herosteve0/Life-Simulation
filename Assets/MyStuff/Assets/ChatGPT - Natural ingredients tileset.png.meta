@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: a13d11ec24cdd06408a5073526e1bb9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7798832739785813362
+    second: ChatGPT - Natural ingredients tileset_0
+  - first:
+      213: -7600790632178218193
+    second: ChatGPT - Natural ingredients tileset_1
+  - first:
+      213: -6255902214410013778
+    second: ChatGPT - Natural ingredients tileset_2
+  - first:
+      213: -2448944769345297494
+    second: ChatGPT - Natural ingredients tileset_3
+  - first:
+      213: 155087393357635890
+    second: ChatGPT - Natural ingredients tileset_4
+  - first:
+      213: 7630352565136903268
+    second: ChatGPT - Natural ingredients tileset_5
+  - first:
+      213: 5754083026506750721
+    second: ChatGPT - Natural ingredients tileset_6
+  - first:
+      213: -3890783893690712276
+    second: ChatGPT - Natural ingredients tileset_7
+  - first:
+      213: 5983832570061542857
+    second: ChatGPT - Natural ingredients tileset_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 715
+        width: 194
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dae9d8e050b3c60800000000000000
+      internalID: 7798832739785813362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 727
+        width: 165
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b86e4d031948690800000000000000
+      internalID: -7600790632178218193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 736
+        width: 202
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3f288c4129e29a0800000000000000
+      internalID: -6255902214410013778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 467
+        width: 182
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa36f9415b9930ed0800000000000000
+      internalID: -2448944769345297494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 488
+        width: 218
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231293e992bf62200800000000000000
+      internalID: 155087393357635890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 468
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cc9fb0b3574e960800000000000000
+      internalID: 7630352565136903268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 88
+        width: 128
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b1a03b60c9adf40800000000000000
+      internalID: 5754083026506750721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_7
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 223
+        width: 192
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ff0c6b9a8210ac0800000000000000
+      internalID: -3890783893690712276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT - Natural ingredients tileset_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 231
+        width: 199
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c55eedc408da0350800000000000000
+      internalID: 5983832570061542857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT - Natural ingredients tileset_0: 7798832739785813362
+      ChatGPT - Natural ingredients tileset_1: -7600790632178218193
+      ChatGPT - Natural ingredients tileset_2: -6255902214410013778
+      ChatGPT - Natural ingredients tileset_3: -2448944769345297494
+      ChatGPT - Natural ingredients tileset_4: 155087393357635890
+      ChatGPT - Natural ingredients tileset_5: 7630352565136903268
+      ChatGPT - Natural ingredients tileset_6: 5754083026506750721
+      ChatGPT - Natural ingredients tileset_7: -3890783893690712276
+      ChatGPT - Natural ingredients tileset_8: 5983832570061542857
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

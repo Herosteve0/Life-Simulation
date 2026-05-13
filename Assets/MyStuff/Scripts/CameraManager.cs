@@ -1,12 +1,11 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 
 public class CameraManager : MonoBehaviour {
     Camera camera;
 
     [SerializeField] float scrollPower = 10;
     [SerializeField] float scrollLimit = 10;
+    float limitMultipler;
 
     [SerializeField] float cameraSmoothness = 4f;
 
@@ -31,6 +30,9 @@ public class CameraManager : MonoBehaviour {
     }
 
     public static Vector3 GetMousePosition => Instance.camera.ScreenToWorldPoint(Input.mousePosition);
+    public static void Initialize() {
+        Instance.limitMultipler = Mathf.Min(GameManager.MapSize.x, GameManager.MapSize.y) / 65f;
+    }
 
 
     // Main Camera
@@ -72,7 +74,7 @@ public class CameraManager : MonoBehaviour {
         Vector3 preLoc = GetMousePosition;
 
         float size = camera.orthographicSize - Input.mouseScrollDelta.y * scrollPower;
-        size = Mathf.Clamp(size, scrollLimit, scrollLimit * GameManager.MapSize.magnitude / 65f);
+        size = Mathf.Clamp(size, scrollLimit, scrollLimit * limitMultipler);
         camera.orthographicSize = size;
 
         transform.position += preLoc - GetMousePosition;
@@ -92,6 +94,6 @@ public class CameraManager : MonoBehaviour {
     }
 
     void CameraZoom() {
-        camera.orthographicSize = ControllableHuman.Instance.stats.size * ControllableHuman.Instance.stats.vision;
+        camera.orthographicSize = ControllableHuman.Instance.Size * ControllableHuman.Instance.Vision;
     }
 }

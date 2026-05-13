@@ -17,6 +17,7 @@ public class TreeManager : MonoBehaviour {
     }
     
     public static GameObject Prefab => Instance.TreePrefab;
+    public static List<Tree> AllTrees => TreeList;
 
     public static Transform GetTransform() {
         return Instance.transform;
